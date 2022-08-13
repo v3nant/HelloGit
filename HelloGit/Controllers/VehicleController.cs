@@ -25,6 +25,12 @@ namespace HelloGit.Controllers
                Model = "3",
                Price = 12000
            });
+            new Vehicle
+           {
+               Maker = "Chevrolet",
+               Model = "Impala",
+               Price = 30000
+           });
             return vehicleList;
         }
 
