@@ -19,24 +19,26 @@ namespace HelloGit.Controllers
                     Price = 15000
                 });
             vehicleList.Add(
-           new Vehicle
-           {
-               Maker = "Mazda",
-               Model = "3",
-               Price = 12000
-           });
-            new Vehicle
-           {
-               Maker = "Chevrolet",
-               Model = "Impala",
-               Price = 30000
-           });
-                new Vehicle
-                {
-                    Maker = "Mazda",
-                    Model = "3",
-                    Price = 12000
-                });
+               new Vehicle
+               {
+                   Maker = "Mazda",
+                   Model = "3",
+                   Price = 12000
+               });
+            vehicleList.Add(
+              new Vehicle
+              {
+                  Maker = "Chevrolet",
+                  Model = "Impala",
+                  Price = 30000
+              });
+            vehicleList.Add(
+              new Vehicle
+              {
+                  Maker = "Mazda",
+                  Model = "3",
+                  Price = 12000
+              });
             vehicleList.Add(
                 new Vehicle
                 {
